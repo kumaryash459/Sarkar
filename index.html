@@ -69,7 +69,7 @@
       <h2>Our Mission</h2>
       <img src="./images/our Mission.jpg" alt="mission">
       <p>Our mission is to deliver accurate and comprehensive information to every student, helping them shine and build a bright future. We aim to guide them towards discovering their true passion and choosing the right career path.
-          Choosing a college is one of life’s most important decisions. At SMTEH, we guide students in such a way that they make informed decisions and never look back with regret. We are committed to providing the correct information and genuine guidance to help students select top institutes in Bangalore at an affordable cost. Our ultimate goal is to empower students to make wiser decisions and shine like a star.
+          Choosing a college is one of life's most important decisions. At SMTEH, we guide students in such a way that they make informed decisions and never look back with regret. We are committed to providing the correct information and genuine guidance to help students select top institutes in Bangalore at an affordable cost. Our ultimate goal is to empower students to make wiser decisions and shine like a star.
       </p>
     </section>
 
@@ -314,29 +314,43 @@ Our vision is centered on serving students in the best possible way, providing t
      </div>
     </section>
 
-  <section id="contact">
-  <h2>Contact Us</h2>
-  <h3>Bangalore Office</h3>
-
-  <div class="contact-container">
-    <div class="address">
-      <h4>Sarkar Medical Tourism & Education Hub</h4>
-      <h4>Mr. Arindam Sarkar</h4>
-      <p>Samriddhi 489, 1st B Cross, Modern Colony, Yeshwantpur, Bangalore - 560022</p>
-      <p>Email: smteh.banglore@smteh.in</p>
-      <p>Phone & WhatsApp: 8918863963</p>
-    </div>
-
-    <form>
-      <input type="text" placeholder="Enter Your Name" required />
-      <input type="email" placeholder="Enter Your Email" required />
-      <input type="number" placeholder="Enter Your Mobile Number" required />
-      <input type="text" placeholder="Course of Interest">
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-</section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+          </div>
+          <div class="form-group">
+            <label for="course">Course Interested In:</label>
+            <select id="course" name="course" required>
+              <option value="">Select a course</option>
+              <option value="MBBS">MBBS</option>
+              <option value="BDS">BDS</option>
+              <option value="BAMS">BAMS</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Nursing">Nursing</option>
+              <option value="Pharmacy">Pharmacy</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
 
   </main>
 
